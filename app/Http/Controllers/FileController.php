@@ -20,7 +20,7 @@ class FileController extends Controller
        $file->size=$fileSize;
        $file->path=$path;
        $file->save();
-       return $path;
+       return "done";
 
        // echo $path;
     }
